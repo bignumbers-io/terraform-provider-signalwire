@@ -3,7 +3,9 @@ module github.com/bignumbers-io/terraform-provider-signalwire
 go 1.14
 
 require (
-	github.com/gorilla/context v1.1.1 // indirect
-	github.com/hashicorp/terraform v0.12.24
-	github.com/spaceapegames/terraform-provider-example v0.0.0-20181120111032-a11993c5df8c
+	github.com/hashicorp/go-getter v1.4.2-0.20200106182914-9813cbd4eb02 // indirect
+	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/hashicorp/hcl/v2 v2.3.0 // indirect
+	github.com/hashicorp/terraform-config-inspect v0.0.0-20191212124732-c6ae6269b9d7 // indirect
+	github.com/hashicorp/terraform-plugin-sdk v1.9.1
 )
